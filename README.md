@@ -1,1 +1,0 @@
-# rodrigo-delgado.github.io
