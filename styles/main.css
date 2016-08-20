@@ -4,7 +4,7 @@ body {
 }
 
 #header{
-      background-image: url("../pictures/ko-tao.jpg");
+      background-image: url("ko-tao.jpg");
       background-size: cover;
       padding: 10%;
       border: none;
@@ -16,7 +16,7 @@ body {
 }
 
 #header-time {
-     background-image: url("../pictures/amsterdam.jpg");
+     background-image: url("amsterdam.jpg");
      background-size: cover;
      padding: 11%;
      border:none;
@@ -30,7 +30,7 @@ body {
 }
 
 #header-reflections {
-     background-image: url("../pictures/singapure.jpg");
+     background-image: url("singapure.jpg");
      background-size: cover;
      padding: 15%;
      border:none;
