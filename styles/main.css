@@ -1,5 +1,5 @@
 body {
-
+       background-color: black;
        font-family:"Courier New", Courier, monospace;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 #header-reflections {
-     background-image: url("singapure.jpg");
+     background-image: url("Singapure.jpg");
      background-size: cover;
      padding: 15%;
      border:none;
