@@ -1,74 +1,148 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Rodrigo Delgado | Blog</title>
-    <meta charset="utf-8">
-    <meta content="text/html; charset=utf-8" http-equiv="Content-type">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link href="../styles/2main.css" rel="stylesheet" type="text/css">
+  <title>Rodrigo's Webpage</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="../styles/main.css" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+  <link crossorigin="anonymous" href=
+  "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  integrity=
+  "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+  rel="stylesheet"><!-- Optional theme -->
+  <link crossorigin="anonymous" href=
+  "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+  integrity=
+  "sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+  rel="stylesheet">
+  <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="nav">
-            <ul>
-                <li class="home">
-                    <a href="http://rodrigo-delgado.github.io">Home</a>
-                </li>
-                <li class="contact">
-                    <a href=
-                    "https://www.facebook.com/rodrigo.delgado.144">Contact</a>
-                </li>
+  <header class="navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <nav role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button aria-expanded="false" class="navbar-toggle collapsed"
+            data-target="#bs-example-navbar-collapse-1" data-toggle="collapse"
+            type="button"><span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span> <span class="icon-bar"></span>
+            <span class="icon-bar"></span></button> <a class="navbar-brand"
+            href="#">HTML-CSS-DOM: <em>Part 1 &amp; 2</em></a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="#">Home</a> <span class="sr-only">(current)</span>
+              </li>
+              <li>
+                <a href="#">About Me</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+              <li>
+                <a href="#">Projects</a>
+              </li>
+              <li>
+                <a href="#">More</a>
+              </li>
             </ul>
-        </div>
-    </header>
-    <div class="header">
-        <h2>2.4 Technical Blog <em>Part 2 (Udacity Reflection)</em></h2>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
     </div>
-    <nav>
-        <ul>
-            <li>
-                <h4>What is grid based design?</h4>
-            </li>
-            <li style="list-style: none; display: inline">
-                <p>Grid design is a structure comprising a series of horizontal
-                and vertical lines which intersect and are then used to arrange
-                content. Grid is a way of providing a system that developers
-                and designers can work with to structure and present content
-                and imagery in a much more readable and manageable way.</p>
-            </li>
-            <li>
-                <h4>What's all the hype about responsive webpages?</h4>
-            </li>
-            <li style="list-style: none; display: inline">
-                <p>Smartphones, tablets, games consoles, smart tv, smart watch,
-                laptops, smart wristband etc. are increasing rapidly, so the
-                importance of device-friendly websites is high</p>
-                <p>Responsive Web Design (RWD) provides an optimal website
-                viewing experience — ease of reading and navigation with a
-                minimum of resizing, panning, and scrolling — across a wide
-                range of devices (from desktop computer monitors to mobile
-                phones)...</p>
-            </li>
-            <li>
-                <h4>What is semantic structure?</h4>
-            </li>
-            <li style="list-style: none; display: inline">
-                <p>Semantic structure is when the computers understand the
-                roles of the elements inside the documents. If we want to
-                creating proper semantics, we need to deeply understand the
-                structure of our content and the capabilities of frontend
-                technologies.</p>
-                <p>If you carefully plan the structure of your HTML documents,
-                you can help computers make sense of the meaning of your
-                content.</p>
-            </li>
-            <li style="list-style: none; display: inline">
-                <p></p>
-            </li>
-        </ul>
-    </nav>
-    <footer class="footer-basic-centered">
-        <p>Rodrigo's Blog 2016</p>
-    </footer>
+  </header>
+  <div class="container">
+    <h2>Technical Blog: <em>Part 1 - Udacity Reflection</em></h2>
+    <h3>Can you think of an analogy to describe HTML, CSS and the DOM? How
+    would you describe it to your non-technical friend?</h3>
+    <p>A car as analogy of a webpage:</p>
+    <p>The HTML of a car would be the structure of this, for example, the
+    frame, the chassis, the door, the windows, the mirrows etc. The CSS
+    provides the style, the painting, shape, the colour of the lights,
+    basically the general look and feel. Sweet car!</p>
+    <p>The DOM is the driver. The person who understands how to drive the car
+    and control the mechanism of the car, when to change gear, accelerate, stop
+    or change a flat wheel.</p>
+    <h3>What is meant by boxifying design?</h3>
+    <p>boxifying design means that all the elements we can see on a webpage are
+    within boxes/square or rectangular shapes, even the circules are inside
+    boxes</p>
+    <h3>What is the box model?</h3>
+    <p>The box model is the specification that defines how a box and its
+    attributes relate to each other. In its simplest form, the box model tells
+    browsers that a box defined as having width 100 pixels and height 50 pixels
+    should be drawn 100 pixels wide and 50 pixels tall.</p>
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-lg-12"><img class="img-responsive" src=
+        "../pictures/box-model.png"></div>
+      </div>
+      <p class="text-center">Box Model</p>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <h2>Technical Blog: <em>Part 2 - Udacity Reflection</em></h2>
+    <h3>What is grid based design?</h3>
+    <p>Grid design is a structure comprising a series of horizontal and
+    vertical lines which intersect and are then used to arrange content. Grid
+    is a way of providing a system that developers and designers can work with
+    to structure and present content and imagery in a much more readable and
+    manageable way.</p>
+    <h3>What is all the hype about responsive webpages?</h3>
+    <p>Smartphones, tablets, games consoles, smart tv, smart watch,laptops,
+    smart wristband etc. aincreasing rapidly, so the importance of
+    device-friendly websites is high</p>
+    <p>Responsive Web Design (RWD) provides an optimal website viewing
+    experience, ease of reading and navigation with a minimum of resizing,
+    panning, and scrolling across a wide range of devices (from desktop
+    computer monitors to mobile phones)</p>
+    <h3>What is semantic structure?</h3>
+    <p>Semantic structure is when the computers understand the roles of the
+    elements inside the documents. If we want to creating proper semantics, we
+    need to deeply understand the structure of our content and the capabilities
+    of frontend technologies.</p>
+    <p>If you carefully plan the structure of your HTML documents, you can help
+    computers make sense of the meaning of your content.</p>
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-sm-6"><img class="img-responsive" src=
+        "../pictures/lines-of-code.jpg"></div>
+      </div>
+      <p class="text-left">Keep Coding!</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="caption">
+      <br>
+      <br>
+      <p class="text-center"><a class="btn btn-primary" href=
+      "https://rodrigo-delgado.github.io/" role="button">Back</a></p>
+    </div>
+  </div>
+  <div class="navbar-inverse navbar-fixed-bottom" role="navigation">
+    <div class="container">
+      <div class="navbar-text pull-left">
+        <p>&#9400; 2016 Rodrigo Delgado.</p>
+      </div>
+      <div class="navbar-text pull-right">
+        <a href="https://www.facebook.com/rodrigo.delgado.144"><i class=
+        "fa fa-facebook-square fa-3x"></i></a> <a href=
+        "https://twitter.com/RoddDelgado"><i class=
+        "fa fa-twitter-square fa-3x"></i></a> <a href=
+        "https://github.com/rodrigo-delgado"><i class=
+        "fa fa-github fa-3x"></i></a> <a href=
+        "https://nz.linkedin.com/in/rodrigo-delgado-5bbb3655"><i class=
+        "fa fa-linkedin-square fa-3x"></i></a>
+      </div>
+    </div>
+  </div>
+  <script>
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+  </script>
 </body>
 </html>
