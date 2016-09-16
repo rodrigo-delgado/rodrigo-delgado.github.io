@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rodrigo's Webpage</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="../styles/main.css" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+  <link crossorigin="anonymous" href=
+  "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  integrity=
+  "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+  rel="stylesheet"><!-- Optional theme -->
+  <link crossorigin="anonymous" href=
+  "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+  integrity=
+  "sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+  rel="stylesheet">
+  <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <nav role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button aria-expanded="false" class="navbar-toggle collapsed"
+            data-target="#bs-example-navbar-collapse-1" data-toggle="collapse"
+            type="button"><span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span> <span class="icon-bar"></span>
+            <span class="icon-bar"></span></button> <a class="navbar-brand"
+            href="#">Tech Blog <em>Sprint 5</em></a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="#">Home</a> <span class="sr-only">(current)</span>
+              </li>
+              <li>
+                <a href="#">About Me</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+              <li>
+                <a href="#">Projects</a>
+              </li>
+              <li>
+                <a href="#">More</a>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>Problem Solving:</h2>
+        <h3>Got blocked on a simple problem</h3>
+        <p>At the beginning of this course I always used to get stuck on simple
+        code problems because I was not reading through the material properly
+        or I jumped into the assigments straight away. I remember something on
+        my website did not work properly and I was stuck for almost 3 hours.
+        Stress levels were really high, and I reached the point that I had to
+        go out for a walk to distract my mind. After that I read through my
+        code again and I found out that I did not link the file properly. I
+        learnt that breaks are really important!</p>
+        <h3>Reflecting on different problem solving techniques:</h3>
+        <p><strong>Pseudocode:</strong> I have not used this technicque yet or
+        properly, I always trying to explain my problem to Mr. Potato Head</p>
+        <p><strong>Trying something:</strong> This is a good technique that I
+        use often.</p>
+        <p><strong>Rubber ducky method:</strong> I use this method often but I
+        am using Mr. Potato Head instead.</p>
+        <p><strong>Reading error messages:</strong> This is very useful too.
+        Also when you are debugging it is amazing how the dev tool shows you
+        exactly where the error is located.</p>
+        <p><strong>Console.logging:</strong> I have not used this method yet, I
+        think I will use it later on debugging websites.</p>
+        <p><strong>Googling:</strong> This is probably the number one on the
+        list, the one I use most often. Google is an amazing problem solving
+        tool.</p>
+        <p><strong>Asking your peers for help:</strong> I ask for help when I
+        am completely stuck. I always like to solve the problem on my own first
+        then ask for help, but definetly this method is really helpfull.</p>
+        <p><strong>Asking coaches for help:</strong> I have not asked for help
+        yet. Probably soon!</p>
+        <p><strong>Improving your process with reflection:</strong> This is
+        good as well, or even taking some time off helps.</p>
+        <h3>Describing some JavaScript Array functions:</h3>
+        <p><strong>Array.prototype.map():</strong> The map() method creates a
+        new array with the results of calling a function for every array
+        element.</p>
+        <p><em>Example:</em></p>
+        <p></p>
+        <p>Return an array with the square root of all the values in the
+        original array:</p>
+        <p><code>var numbers = [4, 9, 16, 25];</code></p>
+        <p><code>function myFunction() {</code></p>
+        <p><code>x = document.getElementById("demo")</code></p>
+        <p><code>x.innerHTML = numbers.map(Math.sqrt);</code></p>
+        <p><code>}</code></p>
+        <p><code>The result will be:</code></p>
+        <p><code>2,3,4,5</code></p>
+        <p><strong>Array.prototype.filter():</strong> Creates a new array with
+        all of the elements of this array for which the provided filtering
+        function.</p>
+        <p><em>Example:</em></p>
+        <p>Return an array of all the values in the ages array that are 18 or
+        over:</p><code></code>
+        <p><code>var ages = [32, 33, 16, 40];</code></p>
+        <p><code>function checkAdult(age) {</code></p>
+        <p><code>return age &gt;= 18;</code></p>
+        <p><code>}</code></p>
+        <p><code>function myFunction() {</code></p>
+        <p><code>document.getElementById("demo").innerHTML =
+        ages.filter(checkAdult);</code></p>
+        <p><code>}</code></p>
+        <p><code>The result will be:</code></p>
+        <p><code>32,33,40</code></p>
+        <p><strong>Array.prototype.reduce():</strong> The reduce() method
+        reduces the array to a single value, executes a provided function for
+        each value of the array (from left-to-right).</p>
+        <p><em>Example:</em></p>
+        <p>Get the sum of the numbers in the array:</p><code></code>
+        <p><code>var numbers = [65, 4, 1, 4];</code></p>
+        <p><code>function getSum(total, num) {</code></p>
+        <p><code>return total + num;</code></p>
+        <p><code>}</code></p>
+        <p><code>function myFunction(item) {</code></p>
+        <p><code>document.getElementById("demo").innerHTML =
+        numbers.reduce(getSum);</code></p>
+        <p><code>}</code></p>
+        <p><code>The total of numbers in Array :74</code></p>
+        <div class="container">
+          <p class="text-center"><a class="btn btn-primary" href=
+          "https://rodrigo-delgado.github.io/" role="button">Back</a></p>
+        </div>
+        <div class="navbar-inverse navbar-fixed-bottom" role="navigation">
+          <div class="container">
+            <div class="navbar-text pull-left">
+              <p>&#9400; 2016 Rodrigo Delgado.</p>
+            </div>
+            <div class="navbar-text pull-right">
+              <a href="https://www.facebook.com/rodrigo.delgado.144"><i class=
+              "fa fa-facebook-square fa-3x"></i></a> <a href=
+              "https://twitter.com/RoddDelgado"><i class=
+              "fa fa-twitter-square fa-3x"></i></a> <a href=
+              "https://github.com/rodrigo-delgado"><i class=
+              "fa fa-github fa-3x"></i></a> <a href=
+              "https://nz.linkedin.com/in/rodrigo-delgado-5bbb3655"><i class=
+              "fa fa-linkedin-square fa-3x"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+  </script>
+</body>
+</html>
