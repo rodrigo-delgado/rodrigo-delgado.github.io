@@ -1,0 +1,71 @@
+
+
+html{
+  background-color: rgb(187, 206, 237);
+
+  font-family: Shadows Into Light, cursive;
+}
+
+.quote-box {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  text-align: center;
+  width: 70%;
+  font-family: Arial;
+  font-size: 15px;
+  -webkit-box-shadow: -4px 10px 84px 43px rgba(0,0,0,0.75);
+-moz-box-shadow: -4px 10px 84px 43px rgba(0,0,0,0.75);
+box-shadow: -4px 10px 84px 43px rgba(0,0,0,0.75);
+font-family: Fredericka the Great, cursive;
+
+
+}
+
+#quote {
+  text-decoration: none;
+  border: solid 2px black;
+  color: black;
+  box-sizing: border-box;
+  padding: 5px;
+  background-color: #99d6ff;
+  font-family: Shadows Into Light, cursive;
+  font-size: 20px;
+  margin-left: 40%;
+  border-radius: 10px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+#twitter-button {
+  text-decoration: none;
+  border: solid 2px black;
+  color: black;
+  box-sizing: border-box;
+  padding: 5px;
+  background-color: #99d6ff;
+  font-family: Shadows Into Light, cursive;
+  font-size: 20px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+}
+
+.hero-image {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+  border-radius: 10px;
+
+}
+
+.quote-author {
+  margin-bottom: 20px;
+
+}
+
+h2 {
+  padding-top: 40px;
+
+}
