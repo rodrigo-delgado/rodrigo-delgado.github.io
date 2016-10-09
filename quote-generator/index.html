@@ -1,60 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Quote Generato</title>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link href="styles/main.css" rel="stylesheet" type="text/css">
-  <script src=
-  "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js">
-  </script>
-  <script src="javascript/quotes.js" type="text/javascript">
-  </script>
-  <script src="jquery-3.1.1.js" type="text/javascript">
-  </script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
-  </script>
-  <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel=
-  "stylesheet" type="text/css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel=
-  "stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
-  <link crossorigin="anonymous" href=
-  "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+  <title>Random Quote Generator</title>
+  <!-- Latest compiled and minified CSS -->
+  <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
   integrity=
-  "sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+  "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
   rel="stylesheet">
+  <link href="styles/main.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great"rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"rel="stylesheet">
+  <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
   <link href="./pictures/R.png" rel="shortcut icon" type="image/x-icon">
 </head>
 <body>
   <div class="container">
-    <div class="jumbotron text-center">
-      <div class="quote-box">
-        <div class="text-holder">
-          <h2>Random Quote Generator</h2>
-          <h4>By Kate and Rodrigo</h4>
-          <div class="col-md-6">
-        </div><img class="hero-image" src="ko-tao.jpg">
-         <div class="quote-text">
-          <i class="fa fa-quote-left"></i><span id="text"></span>
-        </div>
-        <div class="quote-author">
-          - <span id="author"></span>
-        </div>
-      </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Quote Generator</h1>
+        <h3></h3>
+        <hr>
       </div>
     </div>
-    <div class="col-md-6">
-      <div class="buttons">
-        <a class="btn btn-default" href="" id="quote" type="button">New
-        Quote</a> <a class="btn btn-default twitter-share-button" id="twitter-button" data-size="large" href=
-        "https://twitter.com/intent/tweet" target="_blank">Tweet it!</a>
+    <div class="row">
+      <div class="col-md-12">
+        <img class="hero-image" src="pictures/ko-tao.jpg">
+        <div class="quote-box">
+          <p id="quote"></p>
+          <p id="author"></p>
+        </div>
+        <hr />
+        <ul class="list-inline">
+          <li>
+            <a class="btn btn-default btn-lg get-quote" href="#"><i class=
+            "fa fa-quote-left fa-fw"></i>Get Quote</a>
+          </li>
+          <li>
+            <a class="btn btn-default btn-lg share-quote" href="#"><i class=
+            "fa fa-twitter fa-fw"></i>Tweet It!</a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
-  <script async charset="utf-8" src="//platform.twitter.com/widgets.js">
-  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="crossorigin="anonymous"></script>
+  <script src="./javascript/quotes.js"></script>
+  <script src="jquery-3.1.1.js"></script>
 </body>
 </html>
