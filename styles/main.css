@@ -11,6 +11,14 @@ html {
 
 }
 
+#index-pictures{
+  border-radius: 2%;
+margin-top: 8%;
+  -webkit-box-shadow: -2px 6px 50px 9px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 6px 50px 9px rgba(0,0,0,0.75);
+  box-shadow: -2px 6px 50px 9px rgba(0,0,0,0.75);
+}
+
 #blog-picture{
 border-radius: 5%;
 width: 100%;
@@ -24,7 +32,20 @@ margin-left: 7%;
 .navbar-default {
   opacity: .9;
 }
-
+.btn {
+  border-radius: 5px;
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+  text-decoration: none;
+  color: black;
+}
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+.btn:hover{
+   background-color: #6FC6FF;
 }
 p{
   padding-top: 15px;
